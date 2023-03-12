@@ -44,6 +44,5 @@ public class Read_URL_From_QR {
         }
 
 
-
     }
 }
