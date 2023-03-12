@@ -40,7 +40,7 @@ public class Read_URL_From_QR {
             Result qrCodeResult = new MultiFormatReader().decode(binaryBitmap);
             System.out.println(qrCodeResult);
         } catch (Exception e) {
-            // TODO: handle exception
+            System.out.println(e);
         }
 
 
